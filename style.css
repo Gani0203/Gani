@@ -47,6 +47,7 @@ h1{
     text-align: center;
     background-color: white;
     display: flex;
+    align-items:center;
     flex-direction: column;
     width: 100%;
 }
