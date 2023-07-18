@@ -47,6 +47,7 @@ h1{
     text-align: center;
     background-color: white;
     display: flex;
+    flex-direction: column;
     width: 100%;
 }
 .flip-box {
