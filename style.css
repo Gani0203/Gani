@@ -46,6 +46,7 @@ h1{
     height: fit-content;
     text-align: center;
     background-color: white;
+    display: flex;
 }
 .flip-box {
     align-items: center;
@@ -231,19 +232,34 @@ h3.PROGRAM{
 
 
 footer{
+    display: flex;
+    flex-direction: column;
     background-color: #25b79f;
     height: 200px;
-    text-align: center;
+    align-items: center;
     padding: 25px;
 }
 .gap{
-  gap: 10px;
+  display: flex;
+  height: 50px;
+  width: 25%;
+  justify-content: space-around;
 }
 .imt{
   border-radius: 50%;
+  
 }
 .imgi{
   border-radius: 50%;
-}.iml{
+}
+.iml{
   border-radius: 50%;
+}
+.linked-div{
+  background-image: url(images\linkedinn.png);
+  border-radius: 50%;
+}
+.linked-div:hover{
+  background-image: url(images\linkedin.png);
+  border-radius: 50px;
 }
