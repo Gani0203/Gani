@@ -42,17 +42,20 @@ h1{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 .middle-div{
-    position: relative;
+  
     height: fit-content;
     text-align: center;
     background-color: white;
-    display: flex;
-    align-items:center;
+    display: inline;
+    flex-direction: column;
+    width:fit-content;
+    align-items: center;
+    
 }
 .flip-box {
     align-items: center;
     background-color: transparent;
-    width: 500px;
+    width: 475px;
     height: 250px;
     border: 3px dotted black;
     perspective: 1000px;}
@@ -68,10 +71,6 @@ h1{
     
     
   }
-  table{
-    background-color:white;
-  }
- 
   .flip-box:hover .flip-box-inner {
     transform: rotateY(180deg);
   }
@@ -100,7 +99,7 @@ h1{
   } 
   .flip-boxa {
     background-color: transparent;
-    width: 500px;
+    width: 475px;
     height: 250px;
     perspective: 1000px;
     border: 3px dotted black;
@@ -145,7 +144,7 @@ h1{
   }
   .flip-boxb {
     background-color: transparent;
-    width: 500px;
+    width: 475px;
     height: 250px;
     border: 3px dotted black;
     perspective: 1000px;
@@ -235,7 +234,7 @@ h3.PROGRAM{
 footer{
     display: flex;
     flex-direction: column;
-    background-color: #25b79f;
+    background-color: #12aa91;
     height: 200px;
     align-items: center;
     padding: 25px;
